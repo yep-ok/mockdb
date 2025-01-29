@@ -11,6 +11,12 @@
       "name": "award 1",
       "description": "description 1",
       "status": "Suggested"
+    },
+    {
+      "id": "02830457-6645-423a-84a2-b26f96acb0d6",
+      "name": "award 2",
+      "description": "description 2",
+      "status": "Suggested"
     }
   ],
   "nominations": [
@@ -18,7 +24,13 @@
       "id": "2f7dd8f5-ea47-493d-8f00-ba7d536996e8",
       "awardId": "02830457-6645-423a-84a2-b26f96acb0d5",
       "nominee_profile_id": "nominee 1",
-      "profile_id": "nominator 1"
+      "profile_id": "bd0f9608-c2ce-4997-ab95-623c2f7e5561"
+    },
+    {
+      "id": "2f7dd8f5-ea47-493d-8f00-ba7d536996e7",
+      "awardId": "02830457-6645-423a-84a2-b26f96acb0d5",
+      "nominee_profile_id": "nominee 1",
+      "profile_id": "bd0f9608-c2ce-4997-ab95-623c2f7e5561"
     }
   ],
   "votes": [
@@ -35,8 +47,9 @@
       "is_admin": false
     },
     {
-      "id": "nominee 1",
-      "name": "nominee 1"
+      "id": "bd0f9608-c2ce-4997-ab95-623c2f7e5562",
+      "discord_id": "b07ea29b-753d-4cb8-8253-aece85fee52c",
+      "is_admin": false
     }
   ]
 }
