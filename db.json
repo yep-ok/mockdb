@@ -1,14 +1,42 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+  "messages": [
+    {
+      "id": 1,
+      "text": "Message 1"
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
+  "awards": [
+    {
+      "id": "02830457-6645-423a-84a2-b26f96acb0d5",
+      "name": "award 1",
+      "description": "description 1",
+      "status": "Suggested"
+    }
   ],
-  "profile": {
-    "name": "typicode"
-  }
+  "nominations": [
+    {
+      "id": "2f7dd8f5-ea47-493d-8f00-ba7d536996e8",
+      "awardId": "02830457-6645-423a-84a2-b26f96acb0d5",
+      "nominee_profile_id": "nominee 1",
+      "profile_id": "nominator 1"
+    }
+  ],
+  "votes": [
+    {
+      "id": "1ba49bbc-a6f7-4cf3-8cde-113770818ea5",
+      "award_id": "02830457-6645-423a-84a2-b26f96acb0d5",
+      "profile_id": "bd0f9608-c2ce-4997-ab95-623c2f7e5561"
+    }
+  ],
+  "profiles": [
+    {
+      "id": "bd0f9608-c2ce-4997-ab95-623c2f7e5561",
+      "discord_id": "b07ea29b-753d-4cb8-8253-aece85fee52d",
+      "is_admin": false
+    },
+    {
+      "id": "nominee 1",
+      "name": "nominee 1"
+    }
+  ]
 }
